@@ -14,17 +14,17 @@ button {
     color: rgb(112, 112, 12);
 }
 
-.past-hour {
+.past {
     background-color: rgb(109, 95, 95);
     border-color: rgb(56, 47, 47);
 }
 
-.present-hour {
+.present {
     background-color: rgb(148, 148, 219);
     border-color: rgb(106, 106, 192);
 }
 
-.future-hour {
+.future {
     background-color: rgb(89, 133, 89);
     border-color: rgb(39, 65, 39);
 }

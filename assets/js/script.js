@@ -27,16 +27,18 @@ $('#date-today h6').text(moment().format('dddd') + ", " + moment().format('MMMM 
     let textEntry = "#text-entry" + counter;
     $(textEntry).text(workDay[property]);
     let timeId = "#time" + counter;
-    let presentHour = moment().hour();
+    let currentHour = moment().hour();
     let timeString = $(timeId).text();
     let timeNumber = hourNumberFromHourString(timeString);  
-    if(timeNumber < presentHour) {
-        $(textEntry).addClass("past-hour");
-    } else if (timeNumber > presentHour) {
-        $(textEntry).addClass("future-hour");
-    } else {
-        $(textEntry).addClass("present-hour");
-    }
+        if (timeNumber < currentHour) {
+            $(textEntry).addClass("past");
+        } 
+        else if (timeNumber > currentHour) {
+            $(textEntry).addClass("future");
+        } 
+        else {
+            $(textEntry).addClass("present");
+        }
     counter ++;
 }
 
