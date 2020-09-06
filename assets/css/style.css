@@ -4,28 +4,28 @@ textarea {
 
 header {
     border-bottom-width: 10px;
-    text-color: red;
+    color: rgb(26, 21, 21);
 }
 
 button {
-    background-color: darkturquoise;
+    background-color: rgb(207, 207, 121);
     border-radius: 0px 5px 5px 0px;
+    font-size: 2em;
 }
 
 .past-hour {
-    background-color: rgb(189, 189, 189);
-    border-color: gray;
+    background-color: rgb(109, 95, 95);
+    border-color: rgb(56, 47, 47);
 }
 
 .present-hour {
-    background-color: crimson;
-    border-color: crimson;
+    background-color: rgb(148, 148, 219);
+    border-color: rgb(106, 106, 192);
 }
 
 .future-hour {
-    background-color: rgb(90, 177, 90);
-    bordere-color: rgb(41, 136, 41);
-    font-size: 2em;
+    background-color: rgb(89, 133, 89);
+    bordere-color: rgb(39, 65, 39);
 }
 
 
