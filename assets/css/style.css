@@ -4,13 +4,14 @@ textarea {
 
 header {
     border-bottom-width: 10px;
-    color: rgb(26, 21, 21);
+    color: rgb(15, 15, 15);
 }
 
 button {
-    background-color: rgb(207, 207, 121);
+    background-color: rgb(170, 170, 41);
     border-radius: 0px 5px 5px 0px;
     font-size: 2em;
+    color: rgb(112, 112, 12);
 }
 
 .past-hour {
