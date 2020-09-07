@@ -20,7 +20,7 @@ $(document).ready(function(){
     }
 })
 
-$('#date-today h6').text(moment().format('dddd') + ", " + moment().format('MMMM Do YYYY, h:mm:ss a'));
+$('#date-today h5').text(moment().format('dddd') + ", " + moment().format('MMMM Do YYYY, h:mm:ss a'));
 
     let counter = 1;
         for(const property in workDay) {
