@@ -10,3 +10,8 @@ Click the yellow save button to save the data to local storage.
 Page can refresh with no loss of data.
 Delete entry and re-save to clear data permanently.
 
+Snippet of site - 
+https://beccsomata.github.io/workday-scheduler/assets/images/workday-scheduler.jpg
+
+Working URL - 
+https://beccsomata.github.io/workday-scheduler/
